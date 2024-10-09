@@ -1,0 +1,39 @@
+h1{
+    
+    font-style: italic;
+    color: blue;
+    background-position: 50px;
+    background-color: rgb(244, 149, 26);
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color:darkgray;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.bar {
+    margin:  1px;
+    background-color: teal;
+    display: inline-block;
+}
